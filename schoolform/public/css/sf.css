@@ -1,0 +1,30 @@
+.carousel-wrapper{
+    width:550px;
+}
+.cat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cat button{
+    width: 150px;
+}
+.address{
+    position:0;
+}
+.tab input{
+margin:10px;
+}
+.popup_form{
+    display: none;
+    background-color: silver;
+    border: 3px solid black;
+    position: fixed;
+    right: 10px;
+    padding: 20px;
+    top:10px;
+    /* height:700px;
+    width: 300px; */
+    z-index: 9;
+  }
+
